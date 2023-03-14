@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: rgba(238, 253, 23, 0.986);
+}
+
+
+h1{
+    color: rgb(21, 17, 241);
+    font-weight: 900;
+}
+.container{
+    height: 90vh;
+    width: 90vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+td,button{
+    height: 70px;
+    width: 140px;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px px rgb(60, 210, 230);
+}
+button{
+    background-color: rgb(72, 219, 224);
+}
+td:hover,button:hover{
+    background-color: rgba(0, 0, 0, 0.459);
+    
+}
+
+input{
+    width: 572px;
+    height: 80px;
+    margin-left: 3px;
+    font-size: 50px;
+    text-align: right;
+    padding: 10px 40px; 
+    border: 3px solid rgb(13, 95, 5);
+    outline: none;
+    font-family:'digital-7';
+    src: url('digital-7.regular.ttf');
+    border-radius: 10px;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0 0 5px 2px rgb(255, 255, 255);
+}
+
+.calc{
+    border: 5px solid rgb(10, 59, 82);
+    padding: 40px;
+    background-color: rgb(238, 231, 231);
+    border-radius: 10px;
+}
+
+.equals{
+    background-color:rgb(250, 20, 20);
+}
